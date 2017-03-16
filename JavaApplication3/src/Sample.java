@@ -9,8 +9,8 @@ public class Sample { //is breket m veriables declare hoty hai
     name="";
     department="";
     designation="";
-    salary=0;
- 
+    salary=0      ;
+    
     }
     //set process start  ismy value kse dosry veriable m dty hain
      public void setname(String n)
