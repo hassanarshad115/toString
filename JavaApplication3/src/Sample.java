@@ -6,10 +6,10 @@ public class Sample { //is breket m veriables declare hoty hai
     private int salary;
     public Sample() //constructor create q k return type ni ha r class k name jsa h
     {            //value initialize
-    name="";
-    department="";
-    designation="";
-    salary=0      ;
+    name="Hassan Arshad";
+    department="Mcs";
+    designation="Student";
+    salary=1000000      ;
     
     }
     //set process start  ismy value kse dosry veriable m dty hain
@@ -43,6 +43,18 @@ public class Sample { //is breket m veriables declare hoty hai
     
     public int getsalary()
     {return salary;}
+    //tostring ma phly veriables assign krty hain fr return k sath output krty hain
+   public  String toString() //tostring method for name and designation
+    {
+        String name;
+        String designation;
+        int salary;
+        return " toString..name is= "+getname()+"\tdesignation is= "+getdesignation()
+                +"\tsalary is= "+getsalary();
+        
+    
+    
+    }
     
     
 }//main end
